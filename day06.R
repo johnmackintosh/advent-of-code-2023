@@ -16,7 +16,6 @@ ways_to_win <- function(Time = 7, Distance = 9) {
 # check
 # mapply
 res <- mapply(ways_to_win, Time, Distance) |> prod(res = _)
-prod(res)
 
 # test with supplied data
 duration <- c(51, 92, 68, 90)
